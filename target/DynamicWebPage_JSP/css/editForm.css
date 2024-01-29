@@ -1,0 +1,72 @@
+html{
+    background-color: #3f744b;
+}
+.edit-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 33%;
+    padding: 40px;
+    transform: translate(-50%, -50%);
+    background: rgba(24, 20, 20, 0.987);
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0,0,0,.6);
+    border-radius: 10px;
+}
+
+.edit-box .prod-name, .edit-box #prod-id {
+    position: relative;
+}
+
+.edit-box .prod-name input, .edit-box #prod-id input {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 55px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    background: transparent;
+}
+
+.edit-box .prod-name label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #fff;
+    pointer-events: none;
+    transition: .5s;
+}
+
+.edit-box .prod-name input:focus ~ label,
+.edit-box .prod-name input:valid ~ label {
+    top: -20px;
+    left: 0;
+    color: #bdb8b8;
+    font-size: 12px;
+}
+#prod-id label{
+    position: absolute;
+    top: -9px;
+    left: 0;
+    color: #bdb8b8;
+    font-size: 12px;
+    transition: .5s;
+}
+.btnSubmit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btnSubmit input {
+    border-radius: 21px;
+    border: none;
+    width: 50%;
+    height: 42px;
+    background-color: rgb(49,84,57);
+    color: white;
+}
+

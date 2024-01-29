@@ -1,0 +1,95 @@
+*,html{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: rgb(123, 153, 152);
+    overflow: scroll;
+}
+#container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.products{
+    width: 100%;
+    height: 46px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#header{
+    background-color: rgb(48, 139, 109);
+    position: relative;
+    top: 0px;
+    width: 100%;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.prodname{
+    width: 50%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 0px 10px;
+    border: 1px solid rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    height: 45px;
+}
+#header >div, .id, .info{
+    border: 1px solid rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.id{
+    width: 5%;
+}
+
+.info{
+    width: 11.25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+table{
+    width: 100%;
+}
+.row {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn{display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #68697a;
+    width: 57%;
+    height: 56%;
+    border-radius: 16px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.btnAdd{
+    position: sticky;
+    top: 20px;
+    width: 79px;
+    height: 34px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #68697a;
+    border-radius: 16px;
+}
